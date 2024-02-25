@@ -13,7 +13,7 @@ import * as yup from "yup";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Header from "../../components/Header";
 
-const Form = () => {
+const FormAtividade = () => {
   const isNonMobile = useMediaQuery("(min-width:600px)");
 
   const handleFormSubmit = (values) => {
@@ -256,4 +256,4 @@ const initialValues = {
   idProfessor: "",
 };
 
-export default Form;
+export default FormAtividade;

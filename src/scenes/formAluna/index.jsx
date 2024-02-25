@@ -6,7 +6,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import Header from "../../components/Header";
 import InputMask from "react-input-mask";
 
-const Form = () => {
+const FormAluna = () => {
   const isNonMobile = useMediaQuery("(min-width:600px)");
   const [showAdditionalFields, setShowAdditionalFields] = useState(false);
 
@@ -281,4 +281,4 @@ const initialValues = {
   atividade: "",
 };
 
-export default Form;
+export default FormAluna;

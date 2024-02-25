@@ -5,7 +5,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import Header from "../../components/Header";
 import InputMask from "react-input-mask";
 
-const Form = () => {
+const FormUser = () => {
   const isNonMobile = useMediaQuery("(min-width:600px)");
 
   const handleFormSubmit = (values) => {
@@ -213,4 +213,4 @@ const initialValues = {
   profile: "",
 };
 
-export default Form;
+export default FormUser;

@@ -149,7 +149,7 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Aluna"
-              to="/form"
+              to="/formAluna"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}

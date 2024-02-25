@@ -9,14 +9,13 @@ import RelAlunas from "./scenes/relAluna";
 import RelBalancete from "./scenes/relBalancete";
 import RelUser from "./scenes/relUser";
 import Bar from "./scenes/bar";
-import Form from "./scenes/form";
+import FormAluna from "./scenes/formAluna";
 import FormAtividade from "./scenes/formAtividade";
 import FormUser from "./scenes/formUser";
 import Line from "./scenes/line";
 import Pie from "./scenes/pie";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
-import Calendar from "./scenes/calendar/calendar";
 import Login from "./components/Login";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Cadastro from "./components/Cadastro";
@@ -56,13 +55,12 @@ function App() {
               <Route path="/relAlunas" element={<ProtectedRoute><RelAlunas /></ProtectedRoute>} />
               <Route path="/relUser" element={<ProtectedRoute><RelUser /></ProtectedRoute>} />
               <Route path="/relBalancete" element={<ProtectedRoute><RelBalancete /></ProtectedRoute>} />
-              <Route path="/form" element={<ProtectedRoute><Form /></ProtectedRoute>} />
+              <Route path="/formAluna" element={<ProtectedRoute><FormAluna /></ProtectedRoute>} />
               <Route path="/formUser" element={<ProtectedRoute><FormUser /></ProtectedRoute>} />
               <Route path="/formAtividade" element={<ProtectedRoute><FormAtividade /></ProtectedRoute>} />
               <Route path="/bar" element={<ProtectedRoute><Bar /></ProtectedRoute>} />
               <Route path="/pie" element={<ProtectedRoute><Pie /></ProtectedRoute>} />
               <Route path="/line" element={<ProtectedRoute><Line /></ProtectedRoute>} />
-              <Route path="/calendar" element={<ProtectedRoute><Calendar /></ProtectedRoute>} />
             </Routes>
           </main>
         </div>
