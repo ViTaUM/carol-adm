@@ -48,6 +48,7 @@ const RelBalancete = () => {
     // Aplica os filtros baseados no modelo de filtro atual e recalcula os totais.
     const filteredData = applyFilters(mockTransactions2, filterModel);
     calculateTotals(filteredData);
+    //eslint-disable-next-line
   }, [filterModel, mockTransactions2]);
 
   const columns = [
