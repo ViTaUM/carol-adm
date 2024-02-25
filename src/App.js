@@ -5,7 +5,7 @@ import Sidebar from "./scenes/global/Sidebar";
 import SidebarHome from "./scenes/global/SidebarHome";
 import Dashboard from "./scenes/dashboard";
 import Home from "./scenes/home";
-import RelAlunas from "./scenes/team";
+import RelAlunas from "./scenes/relAluna";
 import RelBalancete from "./scenes/relBalancete";
 import RelUser from "./scenes/relUser";
 import Bar from "./scenes/bar";
@@ -14,8 +14,6 @@ import FormAtividade from "./scenes/formAtividade";
 import FormUser from "./scenes/formUser";
 import Line from "./scenes/line";
 import Pie from "./scenes/pie";
-import FAQ from "./scenes/faq";
-import Geography from "./scenes/geography";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import Calendar from "./scenes/calendar/calendar";
@@ -64,9 +62,7 @@ function App() {
               <Route path="/bar" element={<ProtectedRoute><Bar /></ProtectedRoute>} />
               <Route path="/pie" element={<ProtectedRoute><Pie /></ProtectedRoute>} />
               <Route path="/line" element={<ProtectedRoute><Line /></ProtectedRoute>} />
-              <Route path="/faq" element={<ProtectedRoute><FAQ /></ProtectedRoute>} />
               <Route path="/calendar" element={<ProtectedRoute><Calendar /></ProtectedRoute>} />
-              <Route path="/geography" element={<ProtectedRoute><Geography /></ProtectedRoute>} />
             </Routes>
           </main>
         </div>

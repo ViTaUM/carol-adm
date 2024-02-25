@@ -8,7 +8,7 @@ import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettin
 import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
 import SecurityOutlinedIcon from "@mui/icons-material/SecurityOutlined";
 
-const Contacts = () => {
+const RelUser = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
@@ -118,4 +118,4 @@ const Contacts = () => {
   );
 };
 
-export default Contacts;
+export default RelUser;
