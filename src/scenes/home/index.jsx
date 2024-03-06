@@ -55,7 +55,7 @@ const Home = () => {
           <TableBody>
             {mockTransactions3.map((transaction, index) => (
               <TableRow key={index}>
-                <TableCell>{transaction.txId}</TableCell>
+                <TableCell>{transaction.id}</TableCell>
                 <TableCell>{transaction.user}</TableCell>
                 <TableCell>{transaction.activity}</TableCell>
                 <TableCell>{transaction.mes}</TableCell>
